@@ -3,9 +3,9 @@
 ![IBM Model M 122 key](https://i.imgur.com/Oo3Ozqz.jpg)
 
 This is a keymap for the IBM Model M 122 key terminal keyboard running on a Teensy 2.0++
-I wired it to weird pins on mine (mainly to accomodate speakers), so make sure to update the pin arrays.
+The key matrix was gleaned by wiring up the keyboard as in the diagram, and testing the rows and columns with QMK's DEBUG commands.
 
-Keyboard Maintainer: [Luke Stanley](https://github.com/lukexorz)  
+Keyboard Maintainer: [Kenneth Kasilag](https://github.com/hurrian)
 Hardware Supported: Teensy 2.0++  
 Hardware Availability: https://www.pjrc.com/store/teensypp.html 
 

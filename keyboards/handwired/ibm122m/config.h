@@ -20,11 +20,11 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #include "config_common.h"
 
 /* USB Device descriptor parameter */
-#define VENDOR_ID       0xFEED
-#define PRODUCT_ID      0x0000
+#define VENDOR_ID       0xF055
+#define PRODUCT_ID      0x0122
 #define DEVICE_VER      0x0001
 #define MANUFACTURER    IBM
-#define PRODUCT         IBM Model M 122 key
+#define PRODUCT         IBM Model M 122
 
 /* key matrix size */
 #define MATRIX_ROWS 8
@@ -40,8 +40,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *                  ROW2COL = ROW = Anode (+), COL = Cathode (-, marked on diode)
  *
 */
-#define MATRIX_COL_PINS { E6, B7, D0, D1, D2, D3, D4, D5, D6, D7, E0, E1, C0, C1, C2, C3, C4, C5, C7, F1 }
-#define MATRIX_ROW_PINS { F0, B5, B4, B3, B2, B1, B0, E7 }
+#define MATRIX_COL_PINS { E6, F0, F1, F2, F3, F4, F5, F6, F7, C7, C6, C5, C4, C3, C2, C1, C0, E1, E0, D7 }
+#define MATRIX_ROW_PINS { D5, B5, B4, B3, B2, B1, B0, E7 }
 #define UNUSED_PINS
 
 /* COL2ROW, ROW2COL*/
